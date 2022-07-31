@@ -1,0 +1,69 @@
+<html lang="pt-br">
+  <head>
+    <title>First Quick Staart</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,400;1,100;1,200;1,300;1,400&display=swap" 
+    rel="stylesheet">
+    </link>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+  </head>
+
+  <body>
+    <div class="container-principal">
+      <div class="container central">
+        <!--   Container da esquerda   -->
+        <div class="principal-esquerda">
+
+          <h1 class="principal-logo">Flash</h1>
+
+          <h2 class="principal-titulo">Aprenda de forma rápida simples e divertida o vocabulário técnico</h2>
+
+          <p class="principal-texto">
+            No cartão você encontrará palavras e expressões que irá utilizar no seu
+            dia a dia como dev. Aproveite para testar seus conhecimentos e fixar o
+            significado.
+          </p>
+            <div class="container-botao">
+              <button onclick="buscarCard()" class="botao">
+                Próxima pergunta
+              </button>
+
+              <button onclick="revelarResposta()"  class="botao">
+                Revelar resposta
+              </button>
+            </div>
+        </div>
+      </div>
+
+        <div class="container central">
+          <div id="cardContainer" class="principal-direita">
+      
+          <!-- Container da direita -->
+              <div class="card-topo central">
+              <!-- card de pergunta -->
+                <h1 class="card-titulo">Defina: HTML ?</h1>
+              </div>
+
+              <div id="resposta" class="card-conteudo pergunta-resposta">
+                <!-- card de resposta-->
+                <p>
+                  A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de
+                  computador que compõe a maior parte das páginas da internet e dos
+                  aplicativos online
+                </p>
+              </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
+</html>
